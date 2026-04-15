@@ -1,48 +1,101 @@
 <div align="center">
 
-# 🇨🇲 Portail des Services Gouvernementaux pour la Jeunesse
+<img src="https://img.shields.io/badge/Cameroun-🇨🇲-green?style=flat-square" alt="Cameroun"/>
 
-### The digital gateway connecting Cameroonian youth to government programs, trainings, and life-changing opportunities.
+# Portail des Services Gouvernementaux pour la Jeunesse
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB.svg)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-20+-339933.svg)](https://nodejs.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E.svg)](https://supabase.com/)
-[![tRPC](https://img.shields.io/badge/tRPC-11-398CCB.svg)](https://trpc.io/)
-[![Drizzle ORM](https://img.shields.io/badge/Drizzle-ORM-C5F74F.svg)](https://orm.drizzle.team/)
+### The digital gateway connecting young Cameroonians to government programs, scholarships, trainings, and careers — across all 10 regions.
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?style=flat-square)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB.svg?style=flat-square)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-339933.svg?style=flat-square)](https://nodejs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E.svg?style=flat-square)](https://supabase.com/)
+[![tRPC](https://img.shields.io/badge/tRPC-11-398CCB.svg?style=flat-square)](https://trpc.io/)
+[![Drizzle ORM](https://img.shields.io/badge/Drizzle-ORM-C5F74F.svg?style=flat-square)](https://orm.drizzle.team/)
 
 </div>
 
 ---
 
-## 🎯 Why This Exists
+## Why This Exists
 
 Every year, thousands of government programs, scholarships, training sessions, and job opportunities go unfilled — not because there are no eligible youth, but because the information is scattered, inaccessible, or simply unknown.
 
 **Portail Jeunesse Cameroun** solves this. It is a single, unified digital platform where young Cameroonians can discover, apply to, and track every government service aimed at them — from entrepreneurship grants to professional certifications to internship placements.
 
-Built mobile-first, with a clean and accessible interface, the platform is designed to work across all 10 regions of Cameroon, for users regardless of their technical background.
+Built mobile-first, with a clean and accessible interface, designed to work across all 10 regions of Cameroon regardless of connectivity or technical background.
 
 ---
 
-## ✨ Platform Features
+## Platform Preview
+
+### Programs catalog
+
+> Youth browse active government programs filtered by region, category, and deadline — and apply in seconds from the same view.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  portailjeunesse.cm/programs                                        │
+├──────────────────────────────────────────────────────────────────── │
+│  [Logo] Portail Jeunesse    Programs  Trainings  Opps   [Mon compte]│
+├──────────────────────────────────────────────────────────────────── │
+│                                                                     │
+│  ┌───────────────────┐  ┌───────────────────┐  ┌─────────────────┐ │
+│  │  🎓 Education     │  │  💼 Entrepreneuriat│  │  🔬 Recherche   │ │
+│  │                   │  │                   │  │                 │ │
+│  │  Bourse           │  │  Fonds d'appui    │  │  Programme de   │ │
+│  │  d'excellence     │  │  aux jeunes       │  │  recherche      │ │
+│  │  universitaire    │  │  entrepreneurs    │  │  scientifique   │ │
+│  │                   │  │                   │  │                 │ │
+│  │  MINESUP · Centre │  │  MINPMEESA ·Lit.  │  │  MINRESI ·Nat. │ │
+│  ├───────────────────┤  ├───────────────────┤  ├─────────────────┤ │
+│  │ [Ouvert] [Postuler│  │ [Ouvert] [Postuler│  │[Bientôt] [Voir]│ │
+│  └───────────────────┘  └───────────────────┘  └─────────────────┘ │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### Personal dashboard
+
+> Every applicant gets a personal dashboard to track the status of every application across programs, trainings, and opportunities in real time.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  portailjeunesse.cm/dashboard                                       │
+├──────────────┬──────────────────────────────────────────────────────┤
+│  [KN]        │  Bonjour, Koffi                                     │
+│  Koffi Nguema│  Voici le résumé de vos activités                   │
+│  Yaoundé     │                                                      │
+│              │  ┌──────────┐  ┌──────────┐  ┌──────────┐          │
+│  > Dashboard │  │    3     │  │    1     │  │    2     │          │
+│    Candidat. │  │Candidat. │  │Approuvée │  │En attente│          │
+│    Programmes│  └──────────┘  └──────────┘  └──────────┘          │
+│    Formations│                                                      │
+│    Opportun. │  Bourse d'excellence 2025         [Approuvée]       │
+│    Profil    │  Fonds jeunes entrepreneurs        [En attente]      │
+│              │  Formation React & Node.js          [Inscrit]        │
+└──────────────┴──────────────────────────────────────────────────────┘
+```
+
+---
+
+## Features
 
 | Feature | Description |
 |---|---|
-| 🗂 **Programs** | Browse and apply to government grants, scholarships, and entrepreneurship support |
-| 🎓 **Trainings** | Enroll in professional development sessions — online, offline, or hybrid |
-| 💼 **Opportunities** | Discover jobs, internships, fellowships, and events filtered by region and domain |
-| 📊 **Personal Dashboard** | Track all your applications and their statuses in real time with visual indicators |
-| 🛡 **Admin Panel** | Publish programs, validate applications, manage users, send notifications |
-| 🔔 **Notifications** | In-app and email notifications triggered on every application status change |
-| 🔐 **Auth & Roles** | OAuth login (Google) with role-based access: `user` and `admin` |
+| 🗂 **Programs catalog** | Government grants, scholarships, and entrepreneurship programs — filtered by region, category, deadline, and funding amount |
+| 🎓 **Training enrollment** | Online, offline, and hybrid professional trainings with certificate tracking, capacity management, and instructor profiles |
+| 💼 **Opportunity board** | Jobs, internships, scholarships, and events from verified organisations with one-click application and resume upload |
+| 📊 **Personal dashboard** | Real-time application tracking with visual status indicators across all content types |
+| 🛡 **Admin panel** | Publish content, validate applications, manage users, and review a full audit log of every admin action |
+| 🔔 **Notifications** | In-app and email notifications triggered on every status change — approved, rejected, reminder, system update |
+| 🔐 **Auth & roles** | Google OAuth login with role-based access: `user` (default) and `admin` |
 | 🌍 **Region-aware** | All content filterable by any of Cameroon's 10 administrative regions |
-| 🤖 **AI Assistant** | Built-in chat assistant to guide users through the application process |
-| 🗺 **Map Integration** | Interactive map showing regional distribution of opportunities |
+| 🤖 **AI assistant** | Built-in chat assistant to guide users through applications and eligibility |
+| 🗺 **Map integration** | Interactive map showing regional distribution of opportunities |
 
 ---
 
-## 🧱 Full Tech Stack
+## Tech Stack
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -62,8 +115,6 @@ Built mobile-first, with a clean and accessible interface, the platform is desig
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Detailed dependency table
-
 | Layer | Package | Version | Role |
 |---|---|---|---|
 | UI Framework | `react` | 19.x | Component model, concurrent rendering |
@@ -71,7 +122,7 @@ Built mobile-first, with a clean and accessible interface, the platform is desig
 | Styling | `tailwindcss` | 4.x | Utility-first CSS with OKLCH color space |
 | UI Components | `@radix-ui/*` | Latest | Accessible headless primitives (40+ components) |
 | UI Kit | `shadcn/ui` | Latest | Pre-built styled components on top of Radix |
-| API Layer | `@trpc/server` + `@trpc/client` | 11.x | End-to-end type-safe API — no REST, no GraphQL, no code generation |
+| API Layer | `@trpc/server` + `@trpc/client` | 11.x | End-to-end type-safe API — no REST, no GraphQL, no codegen |
 | ORM | `drizzle-orm` | 0.44.x | TypeScript-first ORM with predictable SQL output |
 | DB Client | `supabase-js` | 2.x | Auth, storage, and realtime from Supabase |
 | Validation | `zod` | 3.x | Runtime schema validation, shared between client and server |
@@ -85,9 +136,7 @@ Built mobile-first, with a clean and accessible interface, the platform is desig
 
 ---
 
-## 🏗 System Architecture
-
-The platform uses a **monorepo** structure with three top-level layers — `client`, `server`, and `shared` — communicating through a single tRPC API contract that is fully type-safe end-to-end.
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -120,11 +169,8 @@ The platform uses a **monorepo** structure with three top-level layers — `clie
 │   │  4. Role guard → protectedProcedure throws if no user           │   │
 │   └─────────────────────────────────────────────────────────────────┘   │
 │                                                                         │
-│   ┌─────────────────────────────────────────────────────────────────┐   │
-│   │                     appRouter (routers.ts)                      │   │
-│   │  auth · programs · trainings · opportunities                    │   │
-│   │  notifications · admin · system                                 │   │
-│   └─────────────────────────────────────────────────────────────────┘   │
+│   appRouter:  auth · programs · trainings · opportunities              │
+│               notifications · admin · system                           │
 │                                                                         │
 └──────────────┬──────────────────────┬─────────────────┬─────────────────┘
                │                      │                 │
@@ -137,416 +183,252 @@ The platform uses a **monorepo** structure with three top-level layers — `clie
 
 ### Why tRPC instead of REST or GraphQL?
 
-tRPC generates the full TypeScript type contract from your server router and makes it available in the client automatically — no code generation step, no OpenAPI spec, no manual type duplication. When you rename a field server-side, TypeScript immediately flags every affected client call. This makes the entire codebase safer and significantly faster to iterate on.
+tRPC generates the full TypeScript type contract from your server router and makes it available in the client automatically — no code generation step, no OpenAPI spec, no manual type duplication. When you rename a field server-side, TypeScript immediately flags every affected client call.
 
 ### Why Drizzle ORM?
 
-Drizzle is a TypeScript-first ORM that treats SQL as a first-class citizen. Unlike Prisma, Drizzle produces raw SQL that is predictable and inspectable. Schema changes go through `drizzle-kit` migration files committed to the repo — giving you full control over database evolution with no hidden magic. The `schema.ts` file is the single source of truth: it defines the tables, and TypeScript infers all types from it at compile time.
+Drizzle is a TypeScript-first ORM that produces raw SQL that is predictable and inspectable. Schema changes go through `drizzle-kit` migration files committed to the repo — full control over database evolution with no hidden magic. The `schema.ts` file is the single source of truth; TypeScript infers all types from it at compile time.
 
 ---
 
-## 📁 Project Structure
+## Database Schema (9 tables)
 
 ```
-PortailJeunesse/
-│
-├── client/                              # React 19 frontend
-│   ├── index.html                       # Vite HTML entry point
-│   └── src/
-│       ├── _core/hooks/
-│       │   └── useAuth.ts               # tRPC-powered auth hook (session state)
-│       ├── components/
-│       │   ├── ui/                      # 40+ shadcn/ui + Radix primitives
-│       │   ├── MainLayout.tsx           # App shell: nav, sidebar, theme toggle
-│       │   ├── DashboardLayout.tsx      # Authenticated layout wrapper
-│       │   ├── DashboardLayoutSkeleton.tsx
-│       │   ├── AIChatBox.tsx            # AI assistant chat component
-│       │   ├── Map.tsx                  # Interactive region map
-│       │   ├── ErrorBoundary.tsx        # React error boundary
-│       │   └── ManusDialog.tsx
-│       ├── contexts/
-│       │   └── ThemeContext.tsx         # Light / dark mode context + persistence
-│       ├── hooks/
-│       │   ├── useComposition.ts        # IME composition handling (non-Latin input)
-│       │   └── useMobile.tsx            # Responsive breakpoint detection hook
-│       ├── lib/
-│       │   ├── supabase.ts              # ← FROM files.zip: Supabase client singleton
-│       │   ├── trpc.ts                  # tRPC React Query client setup
-│       │   └── utils.ts                 # cn() class merger and shared utilities
-│       ├── pages/
-│       │   ├── Home.tsx                 # Public landing page
-│       │   ├── Dashboard.tsx            # User dashboard (auth required)
-│       │   ├── Programs.tsx             # ← FROM files.zip: Supabase-powered listing
-│       │   ├── Trainings.tsx            # ← FROM files.zip: Supabase-powered catalog
-│       │   ├── Opportunities.tsx        # ← FROM files.zip: Supabase-powered board
-│       │   ├── Admin.tsx                # Admin panel (admin role required)
-│       │   └── NotFound.tsx
-│       ├── App.tsx                      # Router + providers (Theme, Tooltip, Error)
-│       ├── const.ts                     # App-wide constants (login URL, regions, etc.)
-│       ├── main.tsx                     # React 19 DOM entry point
-│       └── index.css                    # Tailwind directives + OKLCH design tokens
-│
-├── server/                              # Express + tRPC backend
-│   ├── _core/
-│   │   ├── index.ts                     # Server bootstrap: Express + Vite SSR
-│   │   ├── trpc.ts                      # publicProcedure / protectedProcedure factory
-│   │   ├── context.ts                   # Per-request context (user from cookie)
-│   │   ├── cookies.ts                   # Session cookie sign/verify helpers
-│   │   ├── env.ts                       # Validated environment variables (Zod)
-│   │   ├── llm.ts                       # LLM integration (AI assistant backend)
-│   │   ├── notification.ts              # In-app + email notification dispatch
-│   │   ├── storage.ts                   # Supabase Storage upload helpers
-│   │   ├── imageGeneration.ts           # AI image generation
-│   │   ├── map.ts                       # Map data helpers
-│   │   ├── oauth.ts                     # OAuth callback handler
-│   │   ├── sdk.ts                       # Platform SDK integration
-│   │   ├── systemRouter.ts              # System tRPC router (health checks)
-│   │   ├── vite.ts                      # Vite dev server middleware (dev only)
-│   │   └── voiceTranscription.ts        # Voice-to-text via Whisper API
-│   ├── db.ts                            # Drizzle lazy client + upsertUser()
-│   ├── routers.ts                       # All business logic tRPC routers
-│   └── storage.ts                       # Storage procedure helpers
-│
-├── drizzle/                             # Database layer
-│   ├── schema.ts                        # Full typed schema — 9 tables
-│   ├── relations.ts                     # Drizzle table relations
-│   ├── 0000_third_iron_patriot.sql      # Initial migration
-│   ├── 0001_solid_scarlet_spider.sql    # Extended migration
-│   ├── migrations/                      # Migration output directory
-│   └── meta/                            # Drizzle snapshot + journal metadata
-│
-├── shared/                              # Shared between client and server
-│   ├── _core/errors.ts                  # Shared error types
-│   ├── const.ts                         # Cookie name, shared constants
-│   └── types.ts                         # Shared TypeScript interfaces
-│
-├── .env.example                         # ← FROM files.zip: full env template
-├── drizzle.config.ts                    # Drizzle Kit config (points to schema.ts)
-├── vite.config.ts                       # Vite config (React plugin + SSR proxy)
-├── tsconfig.json                        # TypeScript project references
-├── vitest.config.ts                     # Test configuration
-├── components.json                      # shadcn/ui CLI config
-├── package.json                         # Scripts + dependencies
-└── pnpm-lock.yaml                       # Exact dependency lockfile
+                        ┌───────────────────────────────────────────┐
+                        │                  users                    │
+                        │  id · openId (OAuth uid) · name · email  │
+                        │  phone · dateOfBirth · region · city     │
+                        │  role: user | admin · lastSignedIn       │
+                        └───────┬────────────────┬──────────────────┘
+                                │                │
+              ┌─────────────────┼────────────────┼──────────────────┐
+              │                 │                │                  │
+              ▼                 ▼                ▼                  │
+  program_applications  training_enrollments  opportunity_apps      │
+  userId* · programId*  userId*·trainingId*   userId*·opportunityId*│
+  status:               status:               status:               │
+   pending|approved      enrolled|completed    applied|shortlisted  │
+   rejected|withdrawn    cancelled             accepted|rejected    │
+  attachments (JSON)    certificateUrl        resumeUrl             │
+              │                 │                │                  │
+              ▼                 ▼                ▼                  │
+          programs          trainings        opportunities          │
+  category · funding     domain · level      type: job|internship   │
+  region · deadline      format: online      scholarship|event      │
+  requirements (JSON)    offline|hybrid      organization · salary  │
+  isActive · createdBy*  price (0=free)      applicationDeadline    │
+                         certificateProvided  isActive · createdBy* │
+                                                                    │
+  notifications                              audit_logs             │
+  userId* · type                             adminId* · action      │
+  isRead · emailSent                         entityType · changes   │
 ```
 
 ---
 
-## 🗄 Database Schema
+## Request Lifecycle
 
-The database has **9 tables** with a clear relational structure. All migrations are versioned under `drizzle/` and applied via `pnpm db:push`.
-
-```
-                        ┌─────────────────────────────────────────┐
-                        │                 users                   │
-                        │  id · openId (OAuth) · name · email    │
-                        │  phone · dateOfBirth · region · city   │
-                        │  bio · profileImage (Storage URL)      │
-                        │  loginMethod · role (user|admin)       │
-                        │  createdAt · updatedAt · lastSignedIn  │
-                        └────────────────┬────────────────────────┘
-                                         │
-              ┌──────────────────────────┼───────────────────────────┐
-              │                          │                           │
-              ▼                          ▼                           ▼
-  program_applications       training_enrollments       opportunity_applications
-  userId* · programId*        userId* · trainingId*       userId* · opportunityId*
-  status:                     status:                     status:
-   pending|approved            enrolled|completed          applied|shortlisted
-   rejected|withdrawn          cancelled                   rejected|accepted
-  applicationDate             enrollmentDate              applicationDate
-  reviewedAt · reviewedBy*    completionDate              resumeUrl (Storage)
-  rejectionReason · notes     certificateUrl (Storage)    coverLetter · notes
-  attachments (JSON URLs)
-              │                          │                           │
-              ▼                          ▼                           ▼
-          programs                   trainings                 opportunities
-  title · description           title · description          title · description
-  category · targetAudience*    domain                       type:
-  requirements* · benefits*     level: beg|int|adv            job|internship
-  applicationDeadline           duration · format:            scholarship|event
-  startDate · endDate            online|offline|hybrid       domain · region
-  maxApplicants                 maxParticipants              organization
-  fundingAmount (decimal)       currentParticipants†         salary · duration
-  region · contactEmail         instructorName · Bio         applicationDeadline
-  documentationUrl (Storage)    price (decimal, 0=free)      requirements*
-  imageUrl (Storage)            certificateProvided          benefits*
-  isActive · createdBy*         isActive · createdBy*        applicationUrl
-                                                             isActive · createdBy*
-
-* = JSON column (flexible structured data)
-† = denormalized counter, incremented on enrollment
-
-                        notifications
-                  userId* · type:
-                   application_status | new_opportunity
-                   training_reminder | program_update | system
-                  title · message
-                  relatedEntityType · relatedEntityId
-                  isRead · emailSent · emailSentAt
-
-                        audit_logs
-                  adminId* · action (e.g. "approve_application")
-                  entityType · entityId
-                  changes (JSON delta) · reason
-```
-
-### Key design decisions
-
-**`openId` as identity anchor** — users authenticate via OAuth (Google). The `openId` field stores the provider's unique user ID. `upsertUser()` in `server/db.ts` uses `INSERT ... ON DUPLICATE KEY UPDATE` so returning users always get their existing record, never a duplicate.
-
-**JSON columns for flexible content** — `requirements`, `benefits`, `targetAudience`, and `attachments` store JSON strings. This lets each program define its own structure without schema migrations every time content requirements change.
-
-**`createdBy` on all content tables** — every program, training, and opportunity records the admin who created it. Combined with `audit_logs`, this provides a complete provenance trail.
-
-**`currentParticipants` denormalized counter** — avoids expensive `COUNT(*)` joins on the hot training listing endpoint. Incremented atomically on enrollment.
-
-**Drizzle type inference** — `typeof programs.$inferSelect` and `typeof programs.$inferInsert` produce TypeScript types at compile time directly from the schema. No manual type files, no code generation.
-
----
-
-## 🔁 Request Lifecycle
-
-What happens when a user submits a program application — from click to database to notification:
+What happens when a user submits a program application:
 
 ```
 Browser
   trpc.programs.apply.mutate({ programId, notes, attachments })
   │
-  │  tRPC client wraps this in:
-  │  POST /trpc/programs.apply
-  │  Body: JSON-encoded input
-  │  Cookie: HttpOnly session cookie (auto-attached)
+  │  POST /trpc/programs.apply · session cookie auto-attached
   │
   ▼
-Express server (server/_core/index.ts)
+Express server
   │
-  ├─ 1. Cookie parser
-  │     Reads SESSION_SECRET-signed cookie
-  │     Decodes openId from payload
-  │
-  ├─ 2. Context builder (server/_core/context.ts)
-  │     getUserByOpenId(openId) → Drizzle SELECT from users
-  │     Attaches user object to ctx (null if not found)
-  │
-  ├─ 3. tRPC procedure: programs.apply (server/routers.ts)
-  │     protectedProcedure → throws UNAUTHORIZED if ctx.user is null
-  │     Zod parses + validates input (programId: number, notes?: string...)
-  │
-  ├─ 4. Business logic
-  │     Drizzle: SELECT program to verify isActive + maxApplicants not exceeded
-  │     Drizzle: INSERT INTO program_applications (userId, programId, status='pending')
-  │
-  ├─ 5. Notification dispatch (server/_core/notification.ts)
-  │     Drizzle: INSERT INTO notifications (userId, type='application_status', ...)
-  │     [optional] SMTP: sends confirmation email
-  │
-  └─ 6. Returns typed response
-         { success: true, applicationId: number }
+  ├─ 1. Cookie parser → reads SESSION_SECRET-signed cookie → decodes openId
+  ├─ 2. Context builder → getUserByOpenId() → attaches user to ctx (or null)
+  ├─ 3. protectedProcedure → throws UNAUTHORIZED if ctx.user is null
+  ├─ 4. Zod validates input shape (programId: number, notes?: string...)
+  ├─ 5. Drizzle: verify program isActive + maxApplicants not exceeded
+  ├─ 6. Drizzle: INSERT INTO program_applications
+  ├─ 7. Notification: INSERT INTO notifications + optional SMTP email
+  └─ 8. Returns { success: true, applicationId: number }
          │
          ▼
-    React Query invalidates trpc.programs.myApplications cache
-    Dashboard re-fetches and shows new "pending" application
+    React Query cache invalidated → dashboard re-fetches
     Sonner toast: "Application submitted successfully"
 ```
 
-### Authentication flow
+---
+
+## Authentication Flow
 
 ```
 User clicks "Login with Google"
   │
   ▼
 Supabase Auth OAuth redirect → Google consent screen
-  │  User approves
   │
   ▼
 OAuth callback → server/_core/oauth.ts
-  │  Supabase validates token, returns user info
   │  openId + email + name extracted from provider payload
   │
   ▼
-upsertUser() in server/db.ts
-  │  INSERT INTO users (openId, name, email, lastSignedIn)
-  │  ON DUPLICATE KEY UPDATE lastSignedIn = NOW()
+upsertUser() — INSERT ON DUPLICATE KEY UPDATE lastSignedIn
   │  If openId === ENV.ownerOpenId → role = 'admin'
   │
   ▼
-Session cookie set by server/_core/cookies.ts
-  │  HttpOnly · SameSite=Strict · signed with SESSION_SECRET
+HttpOnly session cookie set (SameSite=Strict, signed with SESSION_SECRET)
   │
   ▼
-useAuth() hook on the client (client/src/_core/hooks/useAuth.ts)
-  │  trpc.auth.me.useQuery() → GET /trpc/auth.me
-  │  Returns { user, isAuthenticated, loading }
-  │  Caches in React Query + mirrors to localStorage
+useAuth() hook → trpc.auth.me.useQuery()
+  Returns { user, isAuthenticated, loading }
   │
   ▼
-App.tsx Router applies route guards
-  /dashboard and /admin only render if isAuthenticated === true
+App.tsx Router: /dashboard and /admin render only if isAuthenticated
 ```
 
 ---
 
-## 🔐 Authentication & Roles
+## Project Structure
 
-| Role | How assigned | Access |
-|---|---|---|
-| `user` | Default on first OAuth login | Browse content, apply to programs/trainings/opportunities, manage own profile and applications, receive notifications |
-| `admin` | SQL `UPDATE` or `ENV.ownerOpenId` match at login | Everything above + publish/edit/delete programs, manage trainings and opportunities, validate/reject applications, access audit logs, manage all users |
-
-Role is stored in `users.role` and checked server-side on every protected tRPC procedure via `protectedProcedure`. The client reads `user.role` from the auth context to conditionally render the admin navigation link and admin-only UI elements.
+```
+PortailJeunesse/
+├── client/src/
+│   ├── _core/hooks/useAuth.ts          # tRPC-powered auth hook
+│   ├── components/
+│   │   ├── ui/                         # 40+ shadcn/ui + Radix components
+│   │   ├── MainLayout.tsx              # App shell + nav
+│   │   ├── AIChatBox.tsx               # AI assistant
+│   │   └── Map.tsx                     # Region map
+│   ├── lib/
+│   │   ├── supabase.ts                 # ← FROM files.zip: Supabase client singleton
+│   │   └── trpc.ts                     # tRPC React Query client
+│   └── pages/
+│       ├── Programs.tsx                # ← FROM files.zip: full Supabase page
+│       ├── Trainings.tsx               # ← FROM files.zip: full Supabase page
+│       └── Opportunities.tsx           # ← FROM files.zip: full Supabase page
+│
+├── server/
+│   ├── _core/
+│   │   ├── trpc.ts                     # publicProcedure / protectedProcedure
+│   │   ├── context.ts                  # Per-request context builder
+│   │   ├── notification.ts             # In-app + email dispatch
+│   │   └── oauth.ts                    # OAuth callback handler
+│   ├── db.ts                           # Drizzle lazy client + upsertUser()
+│   └── routers.ts                      # All business logic tRPC routers
+│
+├── drizzle/
+│   ├── schema.ts                       # 9 tables — single source of truth
+│   ├── 0000_*.sql                      # Initial migration
+│   └── 0001_*.sql                      # Extended migration
+│
+└── shared/
+    ├── const.ts                        # Cookie name, shared constants
+    └── types.ts                        # Shared TypeScript interfaces
+```
 
 ---
 
-## 📁 Where the Files from `files.zip` Go
+## Files from `files.zip` — exact destinations
 
-| File in `files.zip` | Exact destination in repo | What it does |
+| File | Destination | Action |
 |---|---|---|
-| `Programs.tsx` | `client/src/pages/Programs.tsx` | Replaces the stub — full Supabase-powered listing with filters and application modal |
-| `Trainings.tsx` | `client/src/pages/Trainings.tsx` | Replaces the stub — full training catalog with enrollment flow |
-| `Opportunities.tsx` | `client/src/pages/Opportunities.tsx` | Replaces the stub — full job/internship/scholarship board |
-| `MainLayout.tsx` | `client/src/components/MainLayout.tsx` | Replaces existing — updated nav with Supabase-aware auth state |
-| `supabase.ts` | `client/src/lib/supabase.ts` | **New file** — create `lib/` if it doesn't exist. The Supabase client singleton used by all three pages above |
-| `.env.example` | `.env.example` (project root) | Replaces the existing template with the complete Supabase variable set |
+| `Programs.tsx` | `client/src/pages/Programs.tsx` | Replace existing stub |
+| `Trainings.tsx` | `client/src/pages/Trainings.tsx` | Replace existing stub |
+| `Opportunities.tsx` | `client/src/pages/Opportunities.tsx` | Replace existing stub |
+| `MainLayout.tsx` | `client/src/components/MainLayout.tsx` | Replace existing file |
+| `supabase.ts` | `client/src/lib/supabase.ts` | New file — create `lib/` if missing |
+| `.env.example` | `.env.example` (project root) | Replace existing template |
 
-> The three page files (`Programs`, `Trainings`, `Opportunities`) all import `supabase` from `../lib/supabase`. Place `supabase.ts` at `client/src/lib/supabase.ts` first or TypeScript will fail to compile.
+> The three pages import `supabase` from `../lib/supabase` — place `supabase.ts` first or the project will not compile.
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites
-
-- Node.js ≥ 20 — check with `node --version`
-- pnpm ≥ 9 — install with `npm install -g pnpm`
+- Node.js ≥ 20
+- pnpm ≥ 9 → `npm install -g pnpm`
 - A [Supabase](https://supabase.com) project (free tier works)
 
-### 1. Clone the repository
-
 ```bash
+# 1. Clone
 git clone https://github.com/YOUR_USERNAME/PortailJeunesse.git
 cd PortailJeunesse
-```
 
-### 2. Install all dependencies
-
-```bash
+# 2. Install
 pnpm install
-```
 
-### 3. Configure environment
-
-```bash
+# 3. Configure
 cp .env.example .env
-# Open .env and fill in your Supabase credentials
-```
+# Fill in your Supabase credentials
 
-### 4. Run database migrations
-
-```bash
+# 4. Apply DB migrations
 pnpm db:push
-```
 
-This runs `drizzle-kit generate && drizzle-kit migrate` — creating all 9 tables in your Supabase PostgreSQL database.
-
-### 5. Start the development server
-
-```bash
+# 5. Start dev server
 pnpm dev
+# → http://localhost:3000
 ```
-
-App runs at **http://localhost:3000**. The Express server proxies the Vite dev server, so hot-reload works for both frontend and backend changes.
 
 ---
 
-## 🗄 Supabase Setup
+## Supabase Setup
 
-### Step 1 — Create a project in your organisation
-
-Go to [app.supabase.com](https://app.supabase.com) → select your organisation → **New project**.
-
-> Recommended region: `af-south-1` (Cape Town) — lowest latency from Cameroon.
-
-### Step 2 — Copy your API keys
-
-Go to **Project Settings → API**:
+### Keys (Project Settings → API)
 
 ```env
 VITE_SUPABASE_URL=https://xxxxxxxxxxxx.supabase.co
 SUPABASE_URL=https://xxxxxxxxxxxx.supabase.co
 
-VITE_SUPABASE_ANON_KEY=eyJhbGci...    # safe for browser
+VITE_SUPABASE_ANON_KEY=eyJhbGci...       # safe for browser
 SUPABASE_ANON_KEY=eyJhbGci...
 
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGci... # server only — NEVER expose to browser
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGci...    # server only — never expose to browser
 ```
 
-### Step 3 — Copy your database URL
-
-**Project Settings → Database → Connection string → URI**:
+### Database URL (Project Settings → Database → Connection string)
 
 ```env
-DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@db.xxxxxxxxxxxx.supabase.co:5432/postgres
+DATABASE_URL=postgresql://postgres:PASSWORD@db.xxxxxxxxxxxx.supabase.co:5432/postgres
 ```
 
-Use **port 5432** (direct connection) for Drizzle ORM migrations.
+> Use port **5432** (direct) for Drizzle migrations. Port 6543 (pooler) is for serverless only.
 
-### Step 4 — Run migrations
-
-```bash
-pnpm db:push
-```
-
-### Step 5 — Enable Google OAuth
-
-**Authentication → Providers → Google** — paste your Google Client ID and Secret from [Google Cloud Console](https://console.cloud.google.com/).
-
-Authorised redirect URI to add in Google:
-```
-https://xxxxxxxxxxxx.supabase.co/auth/v1/callback
-```
-
-### Step 6 — Create storage buckets
-
-**Storage → New bucket**:
+### Storage buckets
 
 | Bucket | Visibility | Used for |
 |---|---|---|
 | `avatars` | Public | User profile pictures |
-| `documents` | Private | Attachments on program applications |
+| `documents` | Private | Application attachments |
 | `resumes` | Private | CVs on opportunity applications |
 
-### Step 7 — Promote your first admin
-
-In **Supabase → SQL Editor**:
+### Promote first admin
 
 ```sql
 UPDATE public.users SET role = 'admin' WHERE email = 'your@email.com';
 ```
 
-Or set `ownerOpenId` in your server env — the matching user will auto-promote to admin on every login.
+### Enable Google OAuth
+
+**Authentication → Providers → Google** — paste your Google Client ID and Secret.
+Add to Google's allowed redirect URIs: `https://xxxxxxxxxxxx.supabase.co/auth/v1/callback`
 
 ---
 
-## 🚀 Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---|---|
-| `pnpm dev` | Start development server with hot reload (client + server) |
-| `pnpm build` | Production build: Vite bundles client, ESBuild bundles server to `dist/` |
-| `pnpm start` | Start production server (`node dist/index.js`) |
-| `pnpm check` | TypeScript type check across all packages (no emit) |
-| `pnpm format` | Format all files with Prettier |
-| `pnpm test` | Run Vitest test suite |
-| `pnpm db:push` | Generate Drizzle migrations and apply to the database |
+| `pnpm dev` | Development server with hot reload |
+| `pnpm build` | Production build (Vite + ESBuild) |
+| `pnpm start` | Run production server |
+| `pnpm check` | TypeScript type check |
+| `pnpm format` | Prettier formatting |
+| `pnpm test` | Vitest test suite |
+| `pnpm db:push` | Generate + apply Drizzle migrations |
 
 ---
 
-## 🌍 Pushing to GitHub
+## Push to GitHub
 
 ```bash
 cd PortailJeunesse
-
 git init
 git remote add origin https://github.com/YOUR_USERNAME/PortailJeunesse.git
 
@@ -557,75 +439,63 @@ git commit -m "feat: initial project with Supabase integration"
 git push -u origin main
 ```
 
-> `.env` is in `.gitignore` and will not be pushed. Only `.env.example` is committed. Never commit real credentials.
+> `.env` is in `.gitignore`. Never commit real credentials — only `.env.example`.
 
 ---
 
-## 📦 Production Deployment
+## Deployment
 
-### Railway (recommended — full-stack Node.js)
-
-1. Push code to GitHub
-2. Connect repo at [railway.app](https://railway.app)
-3. Set all environment variables from `.env` in the Railway dashboard
-4. Build command: `pnpm build`
-5. Start command: `pnpm start`
-6. Railway auto-provisions a public HTTPS URL
+### Railway (recommended)
+1. Connect repo at [railway.app](https://railway.app)
+2. Set all env variables from `.env`
+3. Build: `pnpm build` · Start: `pnpm start`
 
 ### Render
-
-Same as Railway:
 - Build: `pnpm install && pnpm build`
 - Start: `pnpm start`
-- Add all `.env` variables in the Render dashboard
 
-### Vercel (frontend only — if backend is hosted separately)
-
-```bash
-cd client && vite build
-```
-
-Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` as environment variables in Vercel. Point your tRPC calls to your separately hosted Express backend.
+### Vercel (frontend only)
+- Set `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`
+- Point tRPC calls to your separately hosted backend
 
 ---
 
-## 🛣 Roadmap
+## Roadmap
 
 - [x] Full database schema — 9 tables with typed Drizzle migrations
 - [x] Frontend infrastructure: layout, navigation, theming, error boundaries
-- [x] Public landing page
-- [x] Programs, Trainings, Opportunities pages (Supabase-powered with filters)
+- [x] Programs, Trainings, Opportunities pages (Supabase-powered)
 - [x] OAuth authentication with role-based route guards
-- [x] AI chat assistant integration
-- [x] Interactive region map
-- [ ] User dashboard: visual application tracking with status indicators
-- [ ] Admin panel: full CRUD for programs, trainings, opportunities
-- [ ] Application validation workflow (approve/reject with reason + notification)
-- [ ] Email notification system (SMTP via SendGrid / Resend)
-- [ ] Training certificate generation (PDF, stored in Supabase Storage)
-- [ ] Mobile PWA + offline support (service worker)
-- [ ] Multi-language: French / English toggle
-- [ ] Accessibility audit (WCAG 2.1 AA compliance)
-- [ ] Cursor-based pagination for large datasets
+- [x] AI assistant + interactive region map
+- [ ] User dashboard: visual application tracking
+- [ ] Admin panel: full CRUD + application validation workflow
+- [ ] Email notifications (SendGrid / Resend)
+- [ ] Training certificate generation (PDF → Supabase Storage)
+- [ ] Mobile PWA + offline support
+- [ ] French / English language toggle
+- [ ] WCAG 2.1 AA accessibility audit
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
-2. Create a feature branch: `git checkout -b feat/your-feature`
-3. Commit with conventional commits: `git commit -m "feat: add region filter to opportunities"`
-4. Push and open a Pull Request
+2. `git checkout -b feat/your-feature`
+3. `git commit -m "feat: add your feature"`
+4. `git push origin feat/your-feature`
+5. Open a Pull Request
 
-Please run `pnpm check && pnpm test && pnpm format` before submitting a PR.
+Run `pnpm check && pnpm test && pnpm format` before submitting.
 
----.
+---
+
+
 
 ---
 
 <div align="center">
 
-Built with ❤️ for the youth of Cameroon 🇨🇲
+Built with love for the youth of Cameroon 🇨🇲
 
 **[Supabase](https://supabase.com)** · **[shadcn/ui](https://ui.shadcn.com)** · **[tRPC](https://trpc.io)** · **[Drizzle ORM](https://orm.drizzle.team)** · **[Radix UI](https://www.radix-ui.com)**
 
