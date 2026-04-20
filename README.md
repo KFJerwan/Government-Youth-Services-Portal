@@ -1,117 +1,137 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Cameroun-🇨🇲-green?style=flat-square" alt="Cameroun"/>
+<br/>
 
-# Portail des Services Gouvernementaux pour la Jeunesse
+# 🇨🇲 Portail des Services Gouvernementaux pour la Jeunesse
 
 ### The digital gateway connecting young Cameroonians to government programs, scholarships, trainings, and careers — across all 10 regions.
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?style=flat-square)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB.svg?style=flat-square)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-20+-339933.svg?style=flat-square)](https://nodejs.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E.svg?style=flat-square)](https://supabase.com/)
-[![tRPC](https://img.shields.io/badge/tRPC-11-398CCB.svg?style=flat-square)](https://trpc.io/)
-[![Drizzle ORM](https://img.shields.io/badge/Drizzle-ORM-C5F74F.svg?style=flat-square)](https://orm.drizzle.team/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=flat-square)](https://nodejs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E?style=flat-square)](https://supabase.com/)
+[![tRPC](https://img.shields.io/badge/tRPC-11-398CCB?style=flat-square)](https://trpc.io/)
+[![Drizzle ORM](https://img.shields.io/badge/Drizzle-ORM-C5F74F?style=flat-square)](https://orm.drizzle.team/)
 
 </div>
 
 ---
 
-## Why This Exists
+## 🎯 Why This Exists
 
 Every year, thousands of government programs, scholarships, training sessions, and job opportunities go unfilled — not because there are no eligible youth, but because the information is scattered, inaccessible, or simply unknown.
 
-**Portail Jeunesse Cameroun** solves this. It is a single, unified digital platform where young Cameroonians can discover, apply to, and track every government service aimed at them — from entrepreneurship grants to professional certifications to internship placements.
+**Portail Jeunesse Cameroun** solves this. One unified digital platform where young Cameroonians can discover, apply to, and track every government service aimed at them — from entrepreneurship grants to professional certifications to internship placements.
 
-Built mobile-first, with a clean and accessible interface, designed to work across all 10 regions of Cameroon regardless of connectivity or technical background.
+<br/>
 
----
+| | | |
+|:---:|:---:|:---:|
+| ![Cameroonian students during computer lessons Kumba](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Students_in_school_uniform_during_computer_lessons%2C_Kumba%2C_Cameroon_%2811701993756%29.jpg/400px-Students_in_school_uniform_during_computer_lessons%2C_Kumba%2C_Cameroon_%2811701993756%29.jpg) | ![Students with laptops Bitame Lucia school Cameroon](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Laptops_Empower_Students_at_Bitame_Lucia_International_School%2C_Cameroon_%2849743243116%29.jpg/400px-Laptops_Empower_Students_at_Bitame_Lucia_International_School%2C_Cameroon_%2849743243116%29.jpg) | ![Laptops empowering youth Cameroon school](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Laptops_Empower_Students_at_Bitame_Lucia_International_School%2C_Cameroon_%2849743243146%29.jpg/400px-Laptops_Empower_Students_at_Bitame_Lucia_International_School%2C_Cameroon_%2849743243146%29.jpg) |
+| *Digital education · Kumba, Cameroon* | *Youth empowerment · Cameroon* | *Skills training · Cameroon* |
 
-## Platform Preview
-
-### Programs catalog
-
-> Youth browse active government programs filtered by region, category, and deadline — and apply in seconds from the same view.
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  portailjeunesse.cm/programs                                        │
-├──────────────────────────────────────────────────────────────────── │
-│  [Logo] Portail Jeunesse    Programs  Trainings  Opps   [Mon compte]│
-├──────────────────────────────────────────────────────────────────── │
-│                                                                     │
-│  ┌───────────────────┐  ┌───────────────────┐  ┌─────────────────┐ │
-│  │  🎓 Education     │  │  💼 Entrepreneuriat│  │  🔬 Recherche   │ │
-│  │                   │  │                   │  │                 │ │
-│  │  Bourse           │  │  Fonds d'appui    │  │  Programme de   │ │
-│  │  d'excellence     │  │  aux jeunes       │  │  recherche      │ │
-│  │  universitaire    │  │  entrepreneurs    │  │  scientifique   │ │
-│  │                   │  │                   │  │                 │ │
-│  │  MINESUP · Centre │  │  MINPMEESA ·Lit.  │  │  MINRESI ·Nat. │ │
-│  ├───────────────────┤  ├───────────────────┤  ├─────────────────┤ │
-│  │ [Ouvert] [Postuler│  │ [Ouvert] [Postuler│  │[Bientôt] [Voir]│ │
-│  └───────────────────┘  └───────────────────┘  └─────────────────┘ │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-### Personal dashboard
-
-> Every applicant gets a personal dashboard to track the status of every application across programs, trainings, and opportunities in real time.
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  portailjeunesse.cm/dashboard                                       │
-├──────────────┬──────────────────────────────────────────────────────┤
-│  [KN]        │  Bonjour, Koffi                                     │
-│  Koffi Nguema│  Voici le résumé de vos activités                   │
-│  Yaoundé     │                                                      │
-│              │  ┌──────────┐  ┌──────────┐  ┌──────────┐          │
-│  > Dashboard │  │    3     │  │    1     │  │    2     │          │
-│    Candidat. │  │Candidat. │  │Approuvée │  │En attente│          │
-│    Programmes│  └──────────┘  └──────────┘  └──────────┘          │
-│    Formations│                                                      │
-│    Opportun. │  Bourse d'excellence 2025         [Approuvée]       │
-│    Profil    │  Fonds jeunes entrepreneurs        [En attente]      │
-│              │  Formation React & Node.js          [Inscrit]        │
-└──────────────┴──────────────────────────────────────────────────────┘
-```
+<br/>
 
 ---
 
-## Features
+## 📊 Impact at a Glance
+
+<div align="center">
+
+| 26M+ | 10 | 4 | 100% |
+|:---:|:---:|:---:|:---:|
+| Cameroonians under 35 | Regions served | Content types | Open source |
+
+</div>
+
+---
+
+## ✨ Features
 
 | Feature | Description |
 |---|---|
-| 🗂 **Programs catalog** | Government grants, scholarships, and entrepreneurship programs — filtered by region, category, deadline, and funding amount |
-| 🎓 **Training enrollment** | Online, offline, and hybrid professional trainings with certificate tracking, capacity management, and instructor profiles |
-| 💼 **Opportunity board** | Jobs, internships, scholarships, and events from verified organisations with one-click application and resume upload |
-| 📊 **Personal dashboard** | Real-time application tracking with visual status indicators across all content types |
-| 🛡 **Admin panel** | Publish content, validate applications, manage users, and review a full audit log of every admin action |
-| 🔔 **Notifications** | In-app and email notifications triggered on every status change — approved, rejected, reminder, system update |
-| 🔐 **Auth & roles** | Google OAuth login with role-based access: `user` (default) and `admin` |
+| 🗂 **Programs catalog** | Government grants, scholarships, entrepreneurship programs — filtered by region, category, deadline, and funding amount |
+| 🎓 **Training enrollment** | Online, offline, and hybrid trainings with certificate tracking and capacity management |
+| 💼 **Opportunity board** | Jobs, internships, scholarships, and events — one-click apply with resume upload |
+| 📊 **Personal dashboard** | Real-time application tracking across all content types with status indicators |
+| 🛡 **Admin panel** | Publish content, validate applications, manage users, review full audit log |
+| 🔔 **Notifications** | In-app and email notifications on every status change |
+| 🔐 **Auth & roles** | Google OAuth with role-based access: `user` and `admin` |
 | 🌍 **Region-aware** | All content filterable by any of Cameroon's 10 administrative regions |
-| 🤖 **AI assistant** | Built-in chat assistant to guide users through applications and eligibility |
+| 🤖 **AI assistant** | Built-in chat to guide users through applications and eligibility |
 | 🗺 **Map integration** | Interactive map showing regional distribution of opportunities |
 
 ---
 
-## Tech Stack
+## 🖥 Platform Preview
+
+### Programs catalog
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  portailjeunesse.cm/programs                                            │
+├─────────────────────────────────────────────────────────────────────────┤
+│  [⊞] Portail Jeunesse   Programmes  Formations  Opportunités  [Mon ▾]  │
+├─────────────────────────────────────────────────────────────────────────┤
+│  Programmes gouvernementaux                         127 actifs          │
+│                                                                         │
+│  [Tous ●]  [Bourses]  [Entrepreneuriat]  [Recherche]  [Centre ▾]       │
+├──────────────────────┬──────────────────────┬──────────────────────────┤
+│  🎓 BOURSE           │  💼 ENTREPRENEURIAT  │  🔬 RECHERCHE            │
+│                      │                      │                          │
+│  Bourse d'excellence │  Fonds d'appui aux   │  Programme de recherche  │
+│  universitaire 2025  │  jeunes entrepren.   │  scientifique jeunesse   │
+│                      │                      │                          │
+│  MINESUP · Centre    │  MINPMEESA · Lit.    │  MINRESI · National      │
+├──────────────────────┼──────────────────────┼──────────────────────────┤
+│  [Ouvert] [Postuler] │  [Ouvert] [Postuler] │  [Bientôt]   [Voir]      │
+└──────────────────────┴──────────────────────┴──────────────────────────┘
+```
+
+### Personal dashboard
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  portailjeunesse.cm/dashboard                                           │
+├────────────────┬────────────────────────────────────────────────────────┤
+│  [KN]          │  Bonjour, Koffi 👋                                     │
+│  Koffi Nguema  │  Voici le résumé de vos activités récentes             │
+│  Yaoundé       │                                                        │
+│                │  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
+│  ● Dashboard   │  │    3     │  │    1     │  │    2     │            │
+│    Candidat.   │  │  Total   │  │Approuvée │  │En attente│            │
+│    Programmes  │  └──────────┘  └──────────┘  └──────────┘            │
+│    Formations  │                                                        │
+│    Opportun.   │  Bourse d'excellence universitaire 2025   [Approuvée] │
+│    Profil      │  Fonds d'appui jeunes entrepreneurs       [En attente]│
+│                │  Formation React & Node.js avancé          [Inscrit]  │
+└────────────────┴────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
+| | |
+|:---:|:---:|
+| ![Students on computers Cameroon Kumba digital learning](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Students_in_school_uniform_during_computer_lessons%2C_Kumba%2C_Cameroon_%2811701993756%29.jpg/560px-Students_in_school_uniform_during_computer_lessons%2C_Kumba%2C_Cameroon_%2811701993756%29.jpg) | ![Youth with laptops Cameroon empowerment digital skills](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Laptops_Empower_Students_at_Bitame_Lucia_International_School%2C_Cameroon_%2849743243116%29.jpg/560px-Laptops_Empower_Students_at_Bitame_Lucia_International_School%2C_Cameroon_%2849743243116%29.jpg) |
+| *Built for students and young professionals across Cameroon* | *Accessible on any device, in any region* |
+
+---
+
+## 🧱 Full Tech Stack
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │  FRONTEND                                                           │
 │  React 19 · TypeScript 5 · Tailwind CSS 4 · shadcn/ui · Radix UI  │
-│  tRPC Client · Wouter Router · React Hook Form · Zod               │
+│  tRPC Client · Wouter · React Hook Form · Zod                      │
 ├─────────────────────────────────────────────────────────────────────┤
 │  BACKEND                                                            │
-│  Node.js 20 · Express 4 · tRPC 11 · Zod validation                │
-│  Supabase Auth · Session Cookies · Role middleware                  │
+│  Node.js 20 · Express 4 · tRPC 11 · Zod · Session Cookies         │
 ├─────────────────────────────────────────────────────────────────────┤
 │  DATABASE & STORAGE                                                 │
 │  PostgreSQL (Supabase) · Drizzle ORM · Supabase Storage            │
 ├─────────────────────────────────────────────────────────────────────┤
 │  TOOLING                                                            │
-│  Vite 6 · pnpm · Vitest · Prettier · ESBuild · tsx                 │
+│  Vite 6 · pnpm 9 · Vitest · Prettier · ESBuild · tsx               │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -123,168 +143,150 @@ Built mobile-first, with a clean and accessible interface, designed to work acro
 | UI Components | `@radix-ui/*` | Latest | Accessible headless primitives (40+ components) |
 | UI Kit | `shadcn/ui` | Latest | Pre-built styled components on top of Radix |
 | API Layer | `@trpc/server` + `@trpc/client` | 11.x | End-to-end type-safe API — no REST, no GraphQL, no codegen |
-| ORM | `drizzle-orm` | 0.44.x | TypeScript-first ORM with predictable SQL output |
-| DB Client | `supabase-js` | 2.x | Auth, storage, and realtime from Supabase |
-| Validation | `zod` | 3.x | Runtime schema validation, shared between client and server |
-| Forms | `react-hook-form` | 7.x | Performant uncontrolled form state management |
+| ORM | `drizzle-orm` | 0.44.x | TypeScript-first ORM, predictable raw SQL output |
+| DB Client | `supabase-js` | 2.x | Auth, storage, and realtime |
+| Validation | `zod` | 3.x | Runtime schema validation shared across client and server |
+| Forms | `react-hook-form` | 7.x | Performant uncontrolled form state |
 | Router | `wouter` | 3.x | Lightweight 2KB client-side routing |
-| Server | `express` | 4.x | HTTP server wrapping tRPC router |
+| Server | `express` | 4.x | HTTP server wrapping the tRPC router |
 | Build | `vite` | 6.x | Fast frontend bundler with HMR dev server |
-| Runtime | `tsx` + `esbuild` | Latest | TypeScript execution and production server bundling |
+| Runtime | `tsx` + `esbuild` | Latest | TypeScript execution and production bundling |
 | Testing | `vitest` | Latest | Unit and integration test runner |
-| Package mgr | `pnpm` | 9.x | Fast, disk-efficient package management |
+| Package mgr | `pnpm` | 9.x | Fast, disk-efficient dependency management |
+
+### Why tRPC instead of REST or GraphQL?
+
+tRPC generates the full TypeScript contract from your server router and makes it available in the client — no code generation step, no OpenAPI spec, no manual type duplication. Rename a field server-side and TypeScript immediately flags every affected client call.
+
+### Why Drizzle ORM?
+
+Drizzle produces raw, predictable SQL. Schema changes go through versioned migration files in `drizzle/` committed to the repo. `schema.ts` is the single source of truth; TypeScript infers all types at compile time via `$inferSelect` and `$inferInsert`.
 
 ---
 
-## System Architecture
+## 🏗 System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                          Browser / Mobile                               │
 │                                                                         │
-│   ┌──────────────┐   ┌─────────────────┐   ┌───────────────────────┐   │
-│   │    Pages     │   │   Components    │   │    Context / Hooks    │   │
-│   │ Home         │   │ MainLayout      │   │ ThemeContext           │   │
-│   │ Programs     │   │ DashboardLayout │   │ useAuth() → tRPC      │   │
-│   │ Trainings    │   │ AIChatBox       │   │ useQuery / useMutation│   │
-│   │ Opportunities│   │ Map             │   │ useMobile             │   │
-│   │ Dashboard    │   │ 40+ shadcn/ui   │   │                       │   │
-│   │ Admin        │   │ components      │   │                       │   │
-│   └──────┬───────┘   └────────┬────────┘   └───────────┬───────────┘   │
-│          └───────────────────┴────────────────────────┘               │
+│   Pages (Home, Programs, Trainings, Opportunities, Dashboard, Admin)    │
+│   Components (MainLayout, AIChatBox, Map, 40+ shadcn/ui)               │
+│   Hooks (useAuth, useQuery, useMutation, useMobile, ThemeContext)        │
+│                                                                         │
 └──────────────────────────────┬──────────────────────────────────────────┘
                                │
-                  tRPC over HTTP (type-safe, no REST)
-                  POST /trpc/{router}.{procedure}
-                  Session cookie attached automatically
+              tRPC over HTTP · POST /trpc/{router}.{procedure}
+              Session cookie auto-attached · Fully type-safe
                                │
 ┌──────────────────────────────▼──────────────────────────────────────────┐
 │                      Express + tRPC Server                              │
 │                                                                         │
-│   ┌─────────────────────────────────────────────────────────────────┐   │
-│   │                  Middleware chain                                │   │
-│   │  1. Cookie parser → reads HttpOnly session cookie               │   │
-│   │  2. Context builder → getUserByOpenId() → attaches user to ctx  │   │
-│   │  3. tRPC input parser → Zod validates all procedure inputs      │   │
-│   │  4. Role guard → protectedProcedure throws if no user           │   │
-│   └─────────────────────────────────────────────────────────────────┘   │
+│  1. Cookie parser    → reads HttpOnly session cookie → decodes openId  │
+│  2. Context builder  → getUserByOpenId() → attaches user to ctx        │
+│  3. Zod input parser → validates all procedure inputs at runtime       │
+│  4. Role guard       → protectedProcedure throws if no user            │
 │                                                                         │
-│   appRouter:  auth · programs · trainings · opportunities              │
-│               notifications · admin · system                           │
+│  appRouter: auth · programs · trainings · opportunities                │
+│             notifications · admin · system                             │
 │                                                                         │
 └──────────────┬──────────────────────┬─────────────────┬─────────────────┘
                │                      │                 │
    ┌───────────▼──────────┐  ┌────────▼───────┐  ┌─────▼────────────┐
    │    Drizzle ORM       │  │ Supabase Auth  │  │ Supabase Storage │
-   │    + PostgreSQL      │  │ (OAuth/Google) │  │ avatars/docs/CVs │
-   │    (Supabase)        │  │                │  │                  │
+   │    + PostgreSQL      │  │ OAuth · Google │  │ avatars (public) │
+   │    9 tables          │  │ JWT · Sessions │  │ docs + resumes   │
    └──────────────────────┘  └────────────────┘  └──────────────────┘
 ```
 
-### Why tRPC instead of REST or GraphQL?
+---
 
-tRPC generates the full TypeScript type contract from your server router and makes it available in the client automatically — no code generation step, no OpenAPI spec, no manual type duplication. When you rename a field server-side, TypeScript immediately flags every affected client call.
+## 🗄 Database Schema (9 tables)
 
-### Why Drizzle ORM?
+```
+                        ┌───────────────────────────────────────┐
+                        │               users                   │
+                        │  id · openId (OAuth uid) · name       │
+                        │  email · phone · dateOfBirth          │
+                        │  region · city · profileImage         │
+                        │  role: user | admin · lastSignedIn    │
+                        └──────────┬──────────┬─────────────────┘
+                                   │          │
+               ┌───────────────────┼──────────┴──────────────────┐
+               │                   │                             │
+               ▼                   ▼                             ▼
+   program_applications   training_enrollments      opportunity_applications
+   userId* · programId*   userId* · trainingId*     userId* · opportunityId*
+   status:                status:                   status:
+    pending|approved       enrolled|completed        applied|shortlisted
+    rejected|withdrawn     cancelled                 accepted|rejected
+   attachments (JSON)     certificateUrl            resumeUrl · coverLetter
+               │                   │                             │
+               ▼                   ▼                             ▼
+           programs             trainings                  opportunities
+   category · funding       domain · level              type: job|internship
+   region · deadline        format: online               scholarship|event
+   requirements* (JSON)     offline|hybrid               organization · salary
+   isActive · createdBy*    price · certificate          isActive · createdBy*
 
-Drizzle is a TypeScript-first ORM that produces raw SQL that is predictable and inspectable. Schema changes go through `drizzle-kit` migration files committed to the repo — full control over database evolution with no hidden magic. The `schema.ts` file is the single source of truth; TypeScript infers all types from it at compile time.
+   notifications  → userId* · type · title · isRead · emailSent
+   audit_logs     → adminId* · action · entityType · changes (JSON)
+
+   * JSON column   † denormalized counter
+```
+
+**Key design decisions:**
+- `openId` anchors identity — `upsertUser()` uses `INSERT ON DUPLICATE KEY UPDATE` so returning OAuth users never get a duplicate row
+- JSON columns (`requirements`, `benefits`, `attachments`) let each program define its own structure without schema migrations
+- `currentParticipants` on `trainings` is a denormalized counter — avoids expensive `COUNT(*)` on hot listing endpoints
+- `createdBy*` on all content tables + `audit_logs` = complete provenance trail for every piece of content
 
 ---
 
-## Database Schema (9 tables)
-
-```
-                        ┌───────────────────────────────────────────┐
-                        │                  users                    │
-                        │  id · openId (OAuth uid) · name · email  │
-                        │  phone · dateOfBirth · region · city     │
-                        │  role: user | admin · lastSignedIn       │
-                        └───────┬────────────────┬──────────────────┘
-                                │                │
-              ┌─────────────────┼────────────────┼──────────────────┐
-              │                 │                │                  │
-              ▼                 ▼                ▼                  │
-  program_applications  training_enrollments  opportunity_apps      │
-  userId* · programId*  userId*·trainingId*   userId*·opportunityId*│
-  status:               status:               status:               │
-   pending|approved      enrolled|completed    applied|shortlisted  │
-   rejected|withdrawn    cancelled             accepted|rejected    │
-  attachments (JSON)    certificateUrl        resumeUrl             │
-              │                 │                │                  │
-              ▼                 ▼                ▼                  │
-          programs          trainings        opportunities          │
-  category · funding     domain · level      type: job|internship   │
-  region · deadline      format: online      scholarship|event      │
-  requirements (JSON)    offline|hybrid      organization · salary  │
-  isActive · createdBy*  price (0=free)      applicationDeadline    │
-                         certificateProvided  isActive · createdBy* │
-                                                                    │
-  notifications                              audit_logs             │
-  userId* · type                             adminId* · action      │
-  isRead · emailSent                         entityType · changes   │
-```
-
----
-
-## Request Lifecycle
-
-What happens when a user submits a program application:
+## 🔁 Request Lifecycle
 
 ```
 Browser
   trpc.programs.apply.mutate({ programId, notes, attachments })
   │
-  │  POST /trpc/programs.apply · session cookie auto-attached
+  │  POST /trpc/programs.apply
+  │  HttpOnly session cookie auto-attached
   │
   ▼
 Express server
-  │
-  ├─ 1. Cookie parser → reads SESSION_SECRET-signed cookie → decodes openId
-  ├─ 2. Context builder → getUserByOpenId() → attaches user to ctx (or null)
+  ├─ 1. Cookie parser   → SESSION_SECRET-signed cookie → decodes openId
+  ├─ 2. Context builder → getUserByOpenId() → attaches user (or null)
   ├─ 3. protectedProcedure → throws UNAUTHORIZED if ctx.user is null
-  ├─ 4. Zod validates input shape (programId: number, notes?: string...)
+  ├─ 4. Zod validates input (programId: number, notes?: string…)
   ├─ 5. Drizzle: verify program isActive + maxApplicants not exceeded
   ├─ 6. Drizzle: INSERT INTO program_applications
-  ├─ 7. Notification: INSERT INTO notifications + optional SMTP email
-  └─ 8. Returns { success: true, applicationId: number }
-         │
-         ▼
-    React Query cache invalidated → dashboard re-fetches
-    Sonner toast: "Application submitted successfully"
+  ├─ 7. notification.ts: INSERT INTO notifications + optional SMTP
+  └─ Returns { success: true, applicationId: number }
+       │
+       ▼
+  React Query cache invalidated → dashboard re-fetches
+  Sonner toast: "Application submitted successfully"
 ```
 
 ---
 
-## Authentication Flow
+## 🔐 Authentication Flow
 
 ```
 User clicks "Login with Google"
-  │
-  ▼
-Supabase Auth OAuth redirect → Google consent screen
-  │
-  ▼
-OAuth callback → server/_core/oauth.ts
-  │  openId + email + name extracted from provider payload
-  │
-  ▼
-upsertUser() — INSERT ON DUPLICATE KEY UPDATE lastSignedIn
-  │  If openId === ENV.ownerOpenId → role = 'admin'
-  │
-  ▼
-HttpOnly session cookie set (SameSite=Strict, signed with SESSION_SECRET)
-  │
-  ▼
-useAuth() hook → trpc.auth.me.useQuery()
-  Returns { user, isAuthenticated, loading }
-  │
-  ▼
-App.tsx Router: /dashboard and /admin render only if isAuthenticated
+  → Supabase Auth OAuth redirect → Google consent screen
+  → Callback: server/_core/oauth.ts
+      openId + email + name extracted from provider payload
+  → upsertUser(): INSERT ON DUPLICATE KEY UPDATE lastSignedIn
+      if openId === ENV.ownerOpenId → role = 'admin'
+  → HttpOnly cookie set (SameSite=Strict · signed with SESSION_SECRET)
+  → useAuth(): trpc.auth.me.useQuery() → { user, isAuthenticated }
+  → App router: /dashboard and /admin protected by isAuthenticated
 ```
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 PortailJeunesse/
@@ -292,16 +294,16 @@ PortailJeunesse/
 │   ├── _core/hooks/useAuth.ts          # tRPC-powered auth hook
 │   ├── components/
 │   │   ├── ui/                         # 40+ shadcn/ui + Radix components
-│   │   ├── MainLayout.tsx              # App shell + nav
-│   │   ├── AIChatBox.tsx               # AI assistant
-│   │   └── Map.tsx                     # Region map
+│   │   ├── MainLayout.tsx              # App shell + navigation
+│   │   ├── AIChatBox.tsx               # AI assistant component
+│   │   └── Map.tsx                     # Interactive region map
 │   ├── lib/
 │   │   ├── supabase.ts                 # ← FROM files.zip: Supabase client singleton
 │   │   └── trpc.ts                     # tRPC React Query client
 │   └── pages/
-│       ├── Programs.tsx                # ← FROM files.zip: full Supabase page
-│       ├── Trainings.tsx               # ← FROM files.zip: full Supabase page
-│       └── Opportunities.tsx           # ← FROM files.zip: full Supabase page
+│       ├── Programs.tsx                # ← FROM files.zip
+│       ├── Trainings.tsx               # ← FROM files.zip
+│       └── Opportunities.tsx           # ← FROM files.zip
 │
 ├── server/
 │   ├── _core/
@@ -310,12 +312,12 @@ PortailJeunesse/
 │   │   ├── notification.ts             # In-app + email dispatch
 │   │   └── oauth.ts                    # OAuth callback handler
 │   ├── db.ts                           # Drizzle lazy client + upsertUser()
-│   └── routers.ts                      # All business logic tRPC routers
+│   └── routers.ts                      # All tRPC business logic
 │
 ├── drizzle/
 │   ├── schema.ts                       # 9 tables — single source of truth
-│   ├── 0000_*.sql                      # Initial migration
-│   └── 0001_*.sql                      # Extended migration
+│   ├── 0000_*.sql / 0001_*.sql         # Versioned migrations
+│   └── meta/                           # Drizzle snapshot metadata
 │
 └── shared/
     ├── const.ts                        # Cookie name, shared constants
@@ -324,7 +326,7 @@ PortailJeunesse/
 
 ---
 
-## Files from `files.zip` — exact destinations
+## 📦 Files from `files.zip` — Exact Destinations
 
 | File | Destination | Action |
 |---|---|---|
@@ -332,171 +334,134 @@ PortailJeunesse/
 | `Trainings.tsx` | `client/src/pages/Trainings.tsx` | Replace existing stub |
 | `Opportunities.tsx` | `client/src/pages/Opportunities.tsx` | Replace existing stub |
 | `MainLayout.tsx` | `client/src/components/MainLayout.tsx` | Replace existing file |
-| `supabase.ts` | `client/src/lib/supabase.ts` | New file — create `lib/` if missing |
+| `supabase.ts` | `client/src/lib/supabase.ts` | **New file** — create `lib/` if missing |
 | `.env.example` | `.env.example` (project root) | Replace existing template |
 
-> The three pages import `supabase` from `../lib/supabase` — place `supabase.ts` first or the project will not compile.
+> The three pages import from `../lib/supabase`. Place `supabase.ts` first or the project will not compile.
 
 ---
 
-## Quick Start
+## ⚡ Quick Start
 
-### Prerequisites
-- Node.js ≥ 20
-- pnpm ≥ 9 → `npm install -g pnpm`
-- A [Supabase](https://supabase.com) project (free tier works)
+**Prerequisites:** Node.js ≥ 20 · pnpm ≥ 9 (`npm i -g pnpm`) · A [Supabase](https://supabase.com) project
 
 ```bash
-# 1. Clone
 git clone https://github.com/YOUR_USERNAME/PortailJeunesse.git
 cd PortailJeunesse
-
-# 2. Install
 pnpm install
-
-# 3. Configure
-cp .env.example .env
-# Fill in your Supabase credentials
-
-# 4. Apply DB migrations
-pnpm db:push
-
-# 5. Start dev server
-pnpm dev
-# → http://localhost:3000
+cp .env.example .env       # fill in your Supabase credentials
+pnpm db:push               # creates all 9 tables in your Supabase DB
+pnpm dev                   # → http://localhost:3000
 ```
 
 ---
 
-## Supabase Setup
+## 🗄 Supabase Setup
 
-### Keys (Project Settings → API)
+**Keys** — Project Settings → API:
 
 ```env
 VITE_SUPABASE_URL=https://xxxxxxxxxxxx.supabase.co
 SUPABASE_URL=https://xxxxxxxxxxxx.supabase.co
-
 VITE_SUPABASE_ANON_KEY=eyJhbGci...       # safe for browser
 SUPABASE_ANON_KEY=eyJhbGci...
-
 SUPABASE_SERVICE_ROLE_KEY=eyJhbGci...    # server only — never expose to browser
 ```
 
-### Database URL (Project Settings → Database → Connection string)
+**Database URL** — Project Settings → Database → Connection string:
 
 ```env
 DATABASE_URL=postgresql://postgres:PASSWORD@db.xxxxxxxxxxxx.supabase.co:5432/postgres
 ```
 
-> Use port **5432** (direct) for Drizzle migrations. Port 6543 (pooler) is for serverless only.
+> Port **5432** for Drizzle (direct connection). Port 6543 for serverless/edge only.
 
-### Storage buckets
+**Storage buckets:**
 
-| Bucket | Visibility | Used for |
+| Bucket | Visibility | Purpose |
 |---|---|---|
 | `avatars` | Public | User profile pictures |
 | `documents` | Private | Application attachments |
 | `resumes` | Private | CVs on opportunity applications |
 
-### Promote first admin
+**Promote first admin:**
 
 ```sql
 UPDATE public.users SET role = 'admin' WHERE email = 'your@email.com';
 ```
 
-### Enable Google OAuth
-
-**Authentication → Providers → Google** — paste your Google Client ID and Secret.
-Add to Google's allowed redirect URIs: `https://xxxxxxxxxxxx.supabase.co/auth/v1/callback`
+**Google OAuth:** Authentication → Providers → Google → add Client ID + Secret.
+Authorised redirect URI: `https://xxxxxxxxxxxx.supabase.co/auth/v1/callback`
 
 ---
 
-## Available Scripts
+## 🚀 Scripts
 
 | Command | Description |
 |---|---|
 | `pnpm dev` | Development server with hot reload |
-| `pnpm build` | Production build (Vite + ESBuild) |
+| `pnpm build` | Production build — Vite (client) + ESBuild (server) |
 | `pnpm start` | Run production server |
-| `pnpm check` | TypeScript type check |
+| `pnpm check` | TypeScript type check (no emit) |
 | `pnpm format` | Prettier formatting |
 | `pnpm test` | Vitest test suite |
 | `pnpm db:push` | Generate + apply Drizzle migrations |
 
 ---
 
-## Push to GitHub
+## 🌍 Push to GitHub
 
 ```bash
 cd PortailJeunesse
 git init
 git remote add origin https://github.com/YOUR_USERNAME/PortailJeunesse.git
-
 # Copy the 6 files from files.zip to their correct paths (see table above)
-
 git add .
 git commit -m "feat: initial project with Supabase integration"
 git push -u origin main
 ```
 
-> `.env` is in `.gitignore`. Never commit real credentials — only `.env.example`.
+> `.env` is already in `.gitignore`. Never commit credentials — only `.env.example`.
 
 ---
 
-## Deployment
-
-### Railway (recommended)
-1. Connect repo at [railway.app](https://railway.app)
-2. Set all env variables from `.env`
-3. Build: `pnpm build` · Start: `pnpm start`
-
-### Render
-- Build: `pnpm install && pnpm build`
-- Start: `pnpm start`
-
-### Vercel (frontend only)
-- Set `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`
-- Point tRPC calls to your separately hosted backend
-
----
-
-## Roadmap
+## 🛣 Roadmap
 
 - [x] Full database schema — 9 tables with typed Drizzle migrations
-- [x] Frontend infrastructure: layout, navigation, theming, error boundaries
 - [x] Programs, Trainings, Opportunities pages (Supabase-powered)
 - [x] OAuth authentication with role-based route guards
 - [x] AI assistant + interactive region map
-- [ ] User dashboard: visual application tracking
-- [ ] Admin panel: full CRUD + application validation workflow
-- [ ] Email notifications (SendGrid / Resend)
-- [ ] Training certificate generation (PDF → Supabase Storage)
+- [ ] User dashboard — visual application status tracking
+- [ ] Admin panel — full CRUD + application validation workflow
+- [ ] Email notifications — SendGrid / Resend
+- [ ] Certificate generation — PDF → Supabase Storage
 - [ ] Mobile PWA + offline support
 - [ ] French / English language toggle
 - [ ] WCAG 2.1 AA accessibility audit
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-1. Fork the repo
-2. `git checkout -b feat/your-feature`
-3. `git commit -m "feat: add your feature"`
-4. `git push origin feat/your-feature`
-5. Open a Pull Request
+1. Fork → `git checkout -b feat/your-feature`
+2. `git commit -m "feat: describe your change"`
+3. `git push origin feat/your-feature` → open a Pull Request
 
 Run `pnpm check && pnpm test && pnpm format` before submitting.
 
 ---
 
 
-
 ---
 
 <div align="center">
 
-Built with love for the youth of Cameroon 🇨🇲
+Built with ❤️ for the youth of Cameroon 🇨🇲
 
 **[Supabase](https://supabase.com)** · **[shadcn/ui](https://ui.shadcn.com)** · **[tRPC](https://trpc.io)** · **[Drizzle ORM](https://orm.drizzle.team)** · **[Radix UI](https://www.radix-ui.com)**
+
+<br/>
+
+*Photos: [CDC/Rotary](https://commons.wikimedia.org/wiki/File:Students_in_school_uniform_during_computer_lessons,_Kumba,_Cameroon_(11701993756).jpg) and [One Laptop per Child](https://commons.wikimedia.org/wiki/File:Laptops_Empower_Students_at_Bitame_Lucia_International_School,_Cameroon_(49743243116).jpg) via Wikimedia Commons (CC BY 2.0)*
 
 </div>
